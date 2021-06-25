@@ -1,0 +1,64 @@
+/*CSS (Style) file for the web page project.
+*/
+.grid{
+    display: grid;
+    background: slategrey;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: auto 1fr auto;
+    height: 90vh;
+    
+}
+.post{
+    background:lightseagreen;
+    color:linen;
+}
+.pacmen{
+   
+    height: 30vh;
+    background-image: url('pacSS.png');
+}
+.eyes{
+    
+    height: 75vh;
+    background-image: url('eyesSS.png');
+}
+.bus{
+    height: 100vh;
+    background-image: url('busSS.png');
+}
+.intro{
+    margin: 0 auto;
+    margin-left: 30%;
+    border-top: 30px double green;
+    border-left: 20px dotted yellow;
+    border-right: 10px solid red ;
+    border-bottom: 5px dashed blue;
+}
+header, footer{
+    grid-column: 1 / 4;
+    text-align: center;
+    border-style: solid;
+    font-size: 2em;
+    position: relative;
+    border-color:sandybrown;
+    color: whitesmoke;
+    
+}
+aside {
+    border-radius: 1em;
+    position: relative;
+}
+
+article{
+    border-style: double;
+    border-color: saddlebrown;
+    color: whitesmoke;
+}
+
+#textbox{
+    background-color:silver;
+    height: 250px;
+    width: 500px;
+    border-color: steelblue;
+    border-style: ridge;
+}
